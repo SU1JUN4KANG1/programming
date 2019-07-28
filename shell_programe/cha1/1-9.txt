@@ -1,0 +1,15 @@
+F S   UID    PID   PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+4 S     0   2719   2326  0  80   0 - 14032 wait   pts/4    00:00:00 su
+4 S     0   2720   2719  0  80   0 -  5886 wait   pts/4    00:00:02 bash
+0 T     0   6183   2720  0  80   0 -  1091 signal pts/4    00:00:00 a.out
+0 S     0   6306   2720  0  80   0 -  1127 wait   pts/4    00:00:00 sh
+0 S     0   6307   6306  0  80   0 -  5849 wait   pts/4    00:00:01 bash
+0 T     0  10161   6307  0  80   0 - 12502 signal pts/4    00:00:01 pip
+4 S     0  22716   6307  0  80   0 - 14031 wait   pts/4    00:00:00 su
+4 S     0  42655  22717  0  80   0 - 14033 wait   pts/4    00:00:00 su
+4 S     0  42656  42655  0  80   0 -  5882 wait   pts/4    00:00:06 bash
+0 T     0  45631  42656  0  80   0 -  5742 signal pts/4    00:00:00 git
+0 T     0  45632  45631  0  80   0 -  6426 signal pts/4    00:00:00 editor
+0 T     0  50030  42656  0  80   0 -  5742 signal pts/4    00:00:00 git
+0 T     0  50031  50030  0  80   0 -  6426 signal pts/4    00:00:00 editor
+0 R     0  55359  42656  0  80   0 -  7665 -      pts/4    00:00:00 ps
