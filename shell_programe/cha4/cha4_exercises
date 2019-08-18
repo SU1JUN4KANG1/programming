@@ -1,0 +1,33 @@
+
+4-1 grep bash  /etc/passwd
+
+4-2 
+grep -i ps ~/.bash* | grep -v history
+
+4-3 
+grep -i ps ~/.bash* | grep -v history 
+
+4-4 
+grep -n "s" /etc/hosts  
+grep -nc  "s" /etc/hosts 
+
+4-5 
+grep -rn "shell" /usr/share/doc
+
+4-6 
+ls | grep "README"
+
+4-7
+find . -type f -mtime 1
+
+4-8
+
+
+
+
+
+
+
+
+
+
